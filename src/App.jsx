@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./Components/Header";
 import Weather from "./Components/Weather";
-import Background from "./Assets/Background.mp4"
+import LowBackground from "./Assets/LowBack.mp4"
+
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       
       <div className="relative w-full h-screen overflow-hidden">
           <video  className="absolute top-0 left-0 w-full h-full object-cover -z-10" autoPlay loop muted >
-            <source src={Background} type="video/mp4" />
+            <source src={LowBackground} type="video/mp4" />
             Your browser does not support the video tag.
             
          </video>
